@@ -49,3 +49,51 @@ header{
 	border-bottom:1px solid blue;
 	}
 }
+.wrap{
+	display:flex;
+	flex-direction:column;
+}
+section{
+	flex:1;
+	overflow-y:scroll;
+}
+.box{
+	width:80%;
+	height:.9rem;
+	border:1px solid #ccc;
+	margin-left:10%;
+	margin-top:.2rem;
+}
+
+.top{
+	display:flex;
+	justify-content:space-between;
+	padding:0 .1rem;
+	background:rgb(253, 96, 96);
+	p{
+	font-size:.18rem;
+	padding:.05rem 0;
+	color:#fff;
+	b{
+
+	font-size:.24rem;
+	}
+	}
+	img{
+	width:.2rem;
+	height:auto;
+	}
+}
+
+.bottom{
+	display:flex;
+	padding:0 .1rem;
+	img{
+	width:.2rem;
+	height:auto;
+	margin-right:.1rem;
+	}
+	p{
+	font-size:.12rem;
+	}
+}

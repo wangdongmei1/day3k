@@ -47,4 +47,44 @@ header {
     color: blue;
     border-bottom: 1px solid blue; }
 
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+
+.box {
+  width: 80%;
+  height: .9rem;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  margin-top: .2rem; }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .1rem;
+  background: #fd6060; }
+  .top p {
+    font-size: .18rem;
+    padding: .05rem 0;
+    color: #fff; }
+    .top p b {
+      font-size: .24rem; }
+  .top img {
+    width: .2rem;
+    height: auto; }
+
+.bottom {
+  display: flex;
+  padding: 0 .1rem; }
+  .bottom img {
+    width: .2rem;
+    height: auto;
+    margin-right: .1rem; }
+  .bottom p {
+    font-size: .12rem; }
+
 /*# sourceMappingURL=style.css.map */
